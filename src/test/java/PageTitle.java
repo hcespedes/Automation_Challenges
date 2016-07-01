@@ -31,6 +31,7 @@ public class PageTitle {
       }
    }
 
+   //Obtain the url and page title from a txt file and pass them as parameters to the test
    @DataProvider (name = "getTestData")
    public Object [][] getTestData() {
       FileManager fileManager = new FileManager();
